@@ -185,7 +185,8 @@ ul {
 
 .logo_mnu_banner {
   padding-top: 35px;
-  background: url("../img/bg_banner.jpg") no-repeat 0 0;
+  background: url("../img/bg_banner.jpg") no-repeat 0 0, url("../img/bg_banner2.jpg") no-repeat 0 529px, url("../img/bg_banner.jpg") no-repeat 1058px 0;
+  background-color: #f1f1f1;
   overflow: hidden; }
 
 .logo {
@@ -275,9 +276,9 @@ ul {
   .gree span, .first_mnu span {
     color: #79bd00; }
 
-.bir, .second_mnu {
+.bir, .second_mnu, .content {
   border-left: 2px solid #01c3fe; }
-  .bir span, .second_mnu span {
+  .bir span, .second_mnu span, .content span {
     color: #01c3fe; }
 
 .pin, .third_mnu {
@@ -414,6 +415,25 @@ ul {
   .copy .w_897 {
     text-align: center;
     padding-bottom: 30px; }
+
+.content {
+  padding-left: 20px;
+  margin-top: 55px;
+  margin-bottom: 60px;
+  font-family: OpenSans;
+  font-size: 18px; }
+  .content p {
+    margin-bottom: 10px; }
+  .content h1 {
+    color: #01c3fe;
+    font-family: OpenSans;
+    font-size: 50px;
+    margin-bottom: 45px; }
+
+.floatleft {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
