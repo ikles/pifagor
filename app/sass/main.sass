@@ -201,17 +201,17 @@ ul
 		font-size: 35px
 
 .gree
-	border-left: 2px solid rgb(121, 189, 0)
+	border-left: 3px solid rgb(121, 189, 0)
 	span
 		color: rgb(121, 189, 0)
 
 .bir
-	border-left: 2px solid rgb(1, 195, 254)
+	border-left: 3px solid rgb(1, 195, 254)
 	span
 		color: rgb(1, 195, 254)
 
 .pin
-	border-left: 2px solid rgb(219, 0, 255)
+	border-left: 3px solid rgb(219, 0, 255)
 	span
 		@extend .pink
 
@@ -351,31 +351,64 @@ ul
 		text-align: center
 		padding-bottom: 30px
 
+.center
+	margin-top: 55px
+
 .content
 	@extend .bir
 	padding-left: 20px
-	margin-top: 55px
 	margin-bottom: 60px
 	font-family: OpenSans
-	font-size: 18px
+	font-size: 15px
+	box-sizing: border-box
+	overflow: hidden
 	p
-		margin-bottom: 10px
+		margin-bottom: 30px
 	h1
 		color: rgb(1, 195, 254)
 		font-family: OpenSans
 		font-size: 50px
 		margin-bottom: 45px
+		span
+			color: rgb(8, 17, 40)
+			font-size: 35px
 
 .floatleft
 	float: left
 	margin-right: 10px
 	margin-bottom: 10px
 
+.col-left-mnu
+	width: 335px
+	@extend .pin
+	padding-left: 20px
+	float: left
+	box-sizing: border-box
+	font-family: OpenSans 
+	h3
+		font-family: OpenSans 
+		font-size: 25px
+		@extend .pink
+		margin-bottom: 35px
+	li
+		margin-bottom: 11px
+	a
+		color: rgb(66, 66, 66)
+		font-size: 14px
+		text-transform: uppercase
+		&:hover
+			@extend .pink
+	.active
+		a 
+			@extend .pink
 
+.col-content
+	float: left
+	width: 562px
+	box-sizing: border-box
 
-
-
-
+.nomr
+	margin-right: 0
 
 
 
