@@ -284,7 +284,70 @@ ul {
   border-left: 2px solid #db00ff; }
 
 .bottom {
-  background: url("../img/flower_bg.jpg") no-repeat 0 0; }
+  background: url("../img/flower_bg.jpg") no-repeat 0 0;
+  overflow: hidden; }
+
+.production {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  overflow: hidden; }
+  .production h2 {
+    font-family: OpenSans;
+    text-align: left;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 40px; }
+  .production ul {
+    padding-left: 20px;
+    float: left;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .production ul li {
+      margin-bottom: 15px; }
+      .production ul li:last-child {
+        margin-bottom: 0; }
+    .production ul a {
+      font-family: OpenSans;
+      color: #FFF;
+      font-size: 20px;
+      text-transform: uppercase; }
+
+.first_mnu {
+  width: 240px; }
+
+.second_mnu {
+  width: 385px; }
+
+.third_mnu {
+  width: 272px; }
+
+.work_with_us {
+  background-color: #E9E9E9;
+  overflow: hidden;
+  padding: 70px 0; }
+  .work_with_us h2 {
+    font-size: 40px;
+    color: #000;
+    font-family: OpenSans;
+    margin-bottom: 40px; }
+
+.work_with_us table {
+  width: 100%; }
+
+.work_with_us td {
+  vertical-align: middle;
+  width: 33.3333%; }
+  .work_with_us td:first-child {
+    text-align: left; }
+  .work_with_us td:nth-child(2) {
+    text-align: left; }
+  .work_with_us td:nth-child(3) {
+    text-align: right; }
+
+.work_with_us tr:nth-child(2) td {
+  padding-top: 20px; }
+  .work_with_us tr:nth-child(2) td:nth-child(2) img:nth-child(2) {
+    margin-left: 30px; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
