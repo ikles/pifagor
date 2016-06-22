@@ -191,7 +191,7 @@ ul {
 .logo {
   float: left; }
 
-.pink, .top_mnu a:hover, .top_mnu .active a, .slogan span, .pin span {
+.pink, .top_mnu a:hover, .top_mnu .active a, .slogan span, .pin span, .third_mnu span {
   color: #db00ff; }
 
 .top_mnu {
@@ -263,17 +263,28 @@ ul {
     color: #FFF;
     display: block;
     width: 220px;
-    line-height: 1.3; }
+    line-height: 1.3;
+    padding-left: 20px; }
     .services a:hover {
       text-decoration: none; }
   .services span {
     font-size: 35px; }
 
-.gree span {
-  color: #79bd00; }
+.gree, .first_mnu {
+  border-left: 2px solid #79bd00; }
+  .gree span, .first_mnu span {
+    color: #79bd00; }
 
-.bir span {
-  color: #01c3fe; }
+.bir, .second_mnu {
+  border-left: 2px solid #01c3fe; }
+  .bir span, .second_mnu span {
+    color: #01c3fe; }
+
+.pin, .third_mnu {
+  border-left: 2px solid #db00ff; }
+
+.bottom {
+  background: url("../img/flower_bg.jpg") no-repeat 0 0; }
 
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
