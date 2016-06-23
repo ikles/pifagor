@@ -205,7 +205,7 @@ ul {
 .logo {
   float: left; }
 
-.pink, .top_mnu a:hover, .top_mnu .active a, .slogan span, .pin span, .third_mnu span, .col-left-mnu span, .col-left-mnu h3, .col-left-mnu a:hover, .col-left-mnu .active a {
+.pink, .top_mnu a:hover, .top_mnu .current-menu-item a, .slogan span, .pin span, .third_mnu span, .col-left-mnu span, .col-left-mnu h3, .col-left-mnu a:hover, .col-left-mnu .active a {
   color: #db00ff; }
 
 .top_mnu {

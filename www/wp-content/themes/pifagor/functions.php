@@ -43,7 +43,15 @@ register_sidebar(array(
 'after_title' => ''
 ));
 
-
+register_sidebar(array(
+'name' => 'Услуги на главной',
+'id' => 'services',
+'description' => '',
+'before_widget' => '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 nopadding">',
+'after_widget' => '</div>',
+'before_title' => '',
+'after_title' => ''
+));
 
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
