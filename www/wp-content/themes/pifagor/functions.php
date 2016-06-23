@@ -2,6 +2,9 @@
 add_theme_support('post-thumbnails');
 
 register_nav_menu('top-menu', 'Верхнее меню');
+register_nav_menu('prod-menu1', 'first_mnu');
+register_nav_menu('prod-menu2', 'second_mnu');
+register_nav_menu('prod-menu3', 'third_mnu');
 
 register_sidebar(array(
 'name' => 'Иконки вверху',
@@ -52,6 +55,50 @@ register_sidebar(array(
 'before_title' => '',
 'after_title' => ''
 ));
+
+register_sidebar(array(
+'name' => 'Наша продукция на главной',
+'id' => 'production',
+'description' => '',
+'before_widget' => '',
+'after_widget' => '',
+'before_title' => '<h2>',
+'after_title' => '<h2>'
+));
+
+register_sidebar(array(
+'name' => 'C нами работают на главной',
+'id' => 'work_with_us',
+'description' => '',
+'before_widget' => '<div class="work_with_us"><div class="w_897">',
+'after_widget' => '</div></div>',
+'before_title' => '<h2>',
+'after_title' => '</h2>'
+));
+
+
+register_sidebar(array(
+'name' => 'Форма',
+'id' => 'form',
+'description' => '',
+'before_widget' => '<div class="form"><div class="w_897">',
+'after_widget' => '</div></div>',
+'before_title' => '<h2>',
+'after_title' => '</h2>'
+));
+
+
+register_sidebar(array(
+'name' => 'Копирайт',
+'id' => 'copy',
+'description' => '',
+'before_widget' => '<div class="copy"><div class="w_897">',
+'after_widget' => '</div></div>',
+'before_title' => '<h2>',
+'after_title' => '</h2>'
+));
+
+
 
 add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
