@@ -444,6 +444,7 @@ ul {
   margin-bottom: 10px; }
 
 .col-left-mnu {
+  float: left !important;
   width: 335px;
   padding-left: 20px;
   float: left;
@@ -462,7 +463,7 @@ ul {
     text-transform: uppercase; }
 
 .col-content {
-  float: left;
+  float: right;
   width: 562px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -473,6 +474,10 @@ ul {
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+  .content h1 {
+    margin-bottom: 20px; }
+  .center {
+    margin-top: 20px; }
   .col-mnu-logo {
     overflow: visible;
     height: 92px; }
@@ -517,6 +522,18 @@ ul {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .col-left-mnu li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px; }
+  .col-left-mnu a {
+    display: block; }
+  .col-content {
+    width: 100%;
+    float: none; }
+  .col-left-mnu {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px; }
   .production {
     padding: 40px 0; }
     .production h2 {
