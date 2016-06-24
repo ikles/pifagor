@@ -453,6 +453,10 @@ ul {
   margin-top: 55px; 
   overflow: hidden;}
 
+.wpcf7-mail-sent-ok {
+  color: #fff;
+ }
+
 .content {
   padding-left: 20px;
   margin-bottom: 60px;
