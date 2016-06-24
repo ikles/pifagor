@@ -6,7 +6,10 @@ $(function() {
 		return false;
 	});
 
-	
+	if ($('.col-left-mnu').html() == undefined){
+		$('.col-content').css("width", "100%");
+	}
 
 
-});
+
+});//ready

@@ -450,7 +450,8 @@ ul {
     padding-bottom: 30px; }
 
 .center {
-  margin-top: 55px; }
+  margin-top: 55px; 
+  overflow: hidden;}
 
 .content {
   padding-left: 20px;
@@ -462,6 +463,10 @@ ul {
   overflow: hidden; }
   .content p {
     margin-bottom: 30px; }
+
+  .content p:last-child {
+    margin-bottom: 0;
+  }
   .content h1 {
     color: #01c3fe;
     font-family: OpenSans;
@@ -471,7 +476,7 @@ ul {
       color: #081128;
       font-size: 35px; }
 
-.floatleft {
+.alignleft {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px; }
@@ -483,7 +488,8 @@ ul {
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: OpenSans; }
+  font-family: OpenSans;
+  margin-bottom: 20px; }
   .col-left-mnu h3 {
     font-family: OpenSans;
     font-size: 25px;

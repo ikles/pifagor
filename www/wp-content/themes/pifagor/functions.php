@@ -5,6 +5,7 @@ register_nav_menu('top-menu', 'Верхнее меню');
 register_nav_menu('prod-menu1', 'first_mnu');
 register_nav_menu('prod-menu2', 'second_mnu');
 register_nav_menu('prod-menu3', 'third_mnu');
+register_nav_menu('produc', 'production_mnu');
 
 register_sidebar(array(
 'name' => 'Иконки вверху',
@@ -97,6 +98,18 @@ register_sidebar(array(
 'before_title' => '<h2>',
 'after_title' => '</h2>'
 ));
+
+register_sidebar(array(
+'name' => 'Меню продукция',
+'id' => 'col-left-mnu',
+'description' => '',
+'before_widget' => '<div class="col-left-mnu">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>'
+));
+
+
 
 
 
